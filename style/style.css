@@ -550,6 +550,13 @@ ul{
       margin-left: 0px;
       margin-right: 0px;
     }
+
+    .headerImg {
+      margin-left: 40px;
+    }
+    .resultatsPopulaires .fa-chart-line {
+      margin-left: 85px;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px){
@@ -574,6 +581,7 @@ ul{
     }
     .headerimg {
       order: 0;
+      margin-left: 40px;
     }
     .headerSignup {
       order: 1;
@@ -612,6 +620,9 @@ ul{
     .resultats {
       margin-left: 0px;
       margin-right: 0px;
+    }
+    .resultatsPopulaires .fa-chart-line {
+      margin-left: 85px;
     }
   }
   @media screen and (max-width: 650px) {
