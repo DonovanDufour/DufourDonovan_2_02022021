@@ -52,19 +52,6 @@ a {
   .headerSignup:hover {
     text-decoration: underline;
   }
-  
-  @media screen and (min-width: 601px) {
-    .header {
-      grid-template-columns: auto 1fr auto auto;
-      grid-template-areas: "logo . navbar button";
-    }
-    .headerNavLink:focus {
-      border-top: 3px solid #0065FC;
-    }
-    .headerNavLink:hover {
-      border-top: 3px solid #0065FC;
-    }
-  }
 
   /* Search */
   .main {
@@ -435,8 +422,20 @@ ul{
 
 
 /* responsive */
+@media screen and (min-width: 601px) {
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }
+  .headerNavLink:focus {
+    border-top: 3px solid #0065FC;
+  }
+  .headerNavLink:hover {
+    border-top: 3px solid #0065FC;
+  }
+}
+
 @media screen and (max-width: 1200px){
-    /* Results */
     small{
         margin: 0 20px;
     }
@@ -571,6 +570,10 @@ ul{
     }
     .imgActivite{
         width: 324px;
+    }
+
+    .headerImg {
+      margin-left: 40px;
     }
 }
 
