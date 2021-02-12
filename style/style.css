@@ -551,7 +551,7 @@ ul{
     }
 
     .headerImg {
-      margin-left: 40px;
+      margin-left: 50px;
     }
     .resultatsPopulaires .fa-chart-line {
       margin-left: 85px;
@@ -584,7 +584,7 @@ ul{
     }
     .headerimg {
       order: 0;
-      margin-left: 40px;
+      margin-left: 50px;
     }
     .headerSignup {
       order: 1;
@@ -627,6 +627,9 @@ ul{
     .resultatsPopulaires .fa-chart-line {
       margin-left: 85px;
     }
+    .headerImg{
+    margin-left: 50px;
+  }
   }
   @media screen and (max-width: 650px) {
     .searchFiltersTitle {
@@ -642,5 +645,9 @@ ul{
     }
     .searchFormSubmitinputIcon {
       display: none !important;
+    }
+
+    .headerImg{
+      margin-left: 50px;
     }
   }
