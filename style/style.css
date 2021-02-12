@@ -565,5 +565,68 @@ ul{
     .imgActivite{
         width: 324px;
     }
-
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+      grid-template-columns: auto 1fr auto;
+      grid-template-areas: "logo . button" "navbar navbar navbar";
+    }
+    .headerimg {
+      order: 0;
+    }
+    .headerSignup {
+      order: 1;
+    }
+    .headerNav {
+      order: 2;
+    }
+    .headerNavLink {
+      border-top: none;
+      border-bottom: 3px solid #F2F2F2;
+      width: 50%;
+    }
+    .headerNavLink {
+      border-bottom-color: #0065FC;
+    }
+    .headerNavLink:hover {
+      border-bottom-color: #0065FC;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .searchForm {
+      display: flex;
+      width: 100%;
+    }
+    .searchFormSearchinput {
+      flex: 1;
+    }
+    .searchFormSubmitinputText {
+      display: none;
+    }
+    .searchFormSubmitinputIcon {
+      display: block;
+    }
+
+    .resultats {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .searchFiltersTitle {
+      width: 100%;
+    }
+    .searchFiltersFilter {
+      margin-right: 1rem;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .searchFormSubmitinputText {
+      display: block;
+    }
+    .searchFormSubmitinputIcon {
+      display: none !important;
+    }
+  }
