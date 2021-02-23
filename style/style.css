@@ -98,8 +98,8 @@ a {
   }
   .searchFormSearchinput::placeholder {
     font-family: "Raleway", "Sans serif";
-    font-size: 1rem;
-    color: #00000069;
+    font-size: 12px;
+    color: black;
   }
 
   .searchFormSubmitinput {
