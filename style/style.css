@@ -516,7 +516,7 @@ ul{
 }
 
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .header {
       grid-template-columns: auto 1fr auto;
       grid-template-areas: "logo . button" "navbar navbar navbar";
@@ -542,7 +542,31 @@ ul{
     .headerNavLink:hover {
       border-bottom-color: #0065FC;
     }
-  } */
+    .searchForm {
+      display: flex;
+      width: 100%;
+    }
+    .searchFormSearchinput {
+      flex: 1;
+    }
+    .searchFormSubmitinputText {
+      display: none;
+    }
+    .searchFormSubmitinputIcon {
+      display: block;
+    }
+
+    .resultats {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .resultatsPopulaires .fa-chart-line {
+      margin-left: 85px;
+    }
+    .headerImg{
+    margin-left: 50px;
+  }
+  }
 
   /* @media screen and (max-width: 600px) {
     .searchForm {
