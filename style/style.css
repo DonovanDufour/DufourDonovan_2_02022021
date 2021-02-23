@@ -419,32 +419,12 @@ ul{
 
 
 /* responsive */
-@media screen and (min-width: 600px) {
-  .header {
-    grid-template-columns: auto 1fr auto auto;
-    grid-template-areas: "logo . navbar button";
-  }
-  .headerImg {
-    margin-left: 50px;
-  }
-  .headerNavLink:focus {
-    border-top: 3px solid #0065FC;
-  }
-  .headerNavLink:hover {
-    border-top: 3px solid #0065FC;
-  }
-  .resultatsPopulaires h2 {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  .resultatsPopulaires h2 .fa-chart-line {
-    margin-left: 10px;
-  }
-}
-
 @media screen and (max-width: 1024px){
     small{
         margin: 0 20px;
+    }
+    .headerImg {
+      margin-left: 0px;
     }
     .blockResultats{
         flex-direction: column-reverse;
@@ -515,8 +495,31 @@ ul{
     }
 }
 
+@media screen and (min-width: 600px) {
+  .header {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }
+  .headerImg {
+    margin-left: 50px;
+  }
+  .headerNavLink:focus {
+    border-top: 3px solid #0065FC;
+  }
+  .headerNavLink:hover {
+    border-top: 3px solid #0065FC;
+  }
+  .resultatsPopulaires h2 {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .resultatsPopulaires h2 .fa-chart-line {
+    margin-left: 10px;
+  }
+}
 
-/* @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
     .header {
       grid-template-columns: auto 1fr auto;
       grid-template-areas: "logo . button" "navbar navbar navbar";
@@ -566,47 +569,4 @@ ul{
     .headerImg{
     margin-left: 50px;
   }
-} */
-  /* @media screen and (max-width: 600px) {
-    .searchForm {
-      display: flex;
-      width: 100%;
-    }
-    .searchFormSearchinput {
-      flex: 1;
-    }
-    .searchFormSubmitinputText {
-      display: none;
-    }
-    .searchFormSubmitinputIcon {
-      display: block;
-    }
-
-    .resultats {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .resultatsPopulaires .fa-chart-line {
-      margin-left: 85px;
-    }
-    .headerImg{
-    margin-left: 50px;
-  }
-  } */
-  /* @media screen and (max-width: 650px) {
-    .searchFiltersTitle {
-      width: 100%;
-    }
-    .searchFiltersFilter {
-      margin-right: 1rem;
-    }
-  }
-  @media screen and (min-width: 600px) {
-    .searchFormSubmitinputText {
-      display: block;
-    }
-    .searchFormSubmitinputIcon {
-      display: none !important;
-    }
-
-  } */
+}
