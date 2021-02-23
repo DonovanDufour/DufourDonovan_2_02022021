@@ -421,7 +421,7 @@ ul{
 
 /* responsive */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     small{
         margin: 0 20px;
     }
@@ -496,30 +496,6 @@ ul{
         padding-bottom: 0;
     }
 }
-
-@media screen and (min-width: 600px) {
-  .header {
-    grid-template-columns: auto 1fr auto auto;
-    grid-template-areas: "logo . navbar button";
-  }
-  .headerImg {
-    margin-left: 50px;
-  }
-  .headerNavLink:focus {
-    border-top: 3px solid #0065FC;
-  }
-  .headerNavLink:hover {
-    border-top: 3px solid #0065FC;
-  }
-  .resultatsPopulaires h2 {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  .resultatsPopulaires h2 .fa-chart-line {
-    margin-left: 10px;
-  }
-}
-
 
 @media screen and (max-width: 700px) {
     .header {
