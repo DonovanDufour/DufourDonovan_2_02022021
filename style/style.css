@@ -442,7 +442,7 @@ ul{
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
     small{
         margin: 0 20px;
     }
@@ -541,9 +541,6 @@ ul{
     }
     .headerNavLink:hover {
       border-bottom-color: #0065FC;
-    }
-    .imgPrincipal {
-      height: 60px;
     }
   }
 
