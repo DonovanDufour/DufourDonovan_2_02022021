@@ -426,7 +426,7 @@ ul{
         margin: 0 20px;
     }
     .headerImg {
-      margin-left: 0px;
+      margin-left: 50px;
     }
     .blockResultats{
         flex-direction: column-reverse;
