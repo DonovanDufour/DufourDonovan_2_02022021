@@ -566,8 +566,7 @@ ul{
     .headerImg{
     margin-left: 50px;
   }
-  }
-
+}
   /* @media screen and (max-width: 600px) {
     .searchForm {
       display: flex;
@@ -594,7 +593,7 @@ ul{
     margin-left: 50px;
   }
   } */
-  /* @media screen and (max-width: 650px) {
+  @media screen and (max-width: 650px) {
     .searchFiltersTitle {
       width: 100%;
     }
@@ -610,4 +609,4 @@ ul{
       display: none !important;
     }
 
-  } */
+  }
