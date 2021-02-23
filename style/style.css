@@ -419,6 +419,13 @@ ul{
 
 
 /* responsive */
+@media screen and (min-width: 1024px) {
+  .resultatsPrincipaux {
+    padding: 0;
+  }
+  
+}
+
 @media screen and (max-width: 1024px){
     small{
         margin: 0 20px;
