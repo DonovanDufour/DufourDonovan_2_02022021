@@ -440,12 +440,9 @@ ul{
   .resultatsPopulaires h2 .fa-chart-line {
     margin-left: 10px;
   }
-  .imgPrincipal {
-    height: 60px;
-  }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     small{
         margin: 0 20px;
     }
@@ -544,6 +541,9 @@ ul{
     }
     .headerNavLink:hover {
       border-bottom-color: #0065FC;
+    }
+    .imgPrincipal {
+      height: 60px;
     }
   }
 
