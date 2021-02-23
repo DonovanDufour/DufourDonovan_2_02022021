@@ -98,7 +98,7 @@ a {
   }
   .searchFormSearchinput::placeholder {
     font-family: "Raleway", "Sans serif";
-    font-size: 12px;
+    font-size: 1rem;
     color: black;
   }
 
@@ -544,5 +544,9 @@ ul{
     }
     .headerImg{
     margin-left: 50px;
+  }
+  .searchFormSearchinput::placeholder {
+    font-size: 11px;
+    color: black;
   }
 }
