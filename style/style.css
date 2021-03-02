@@ -61,6 +61,10 @@ a {
     box-sizing: border-box;
   }
 
+  .fa-search {
+    visibility: hidden;
+  }
+
   .search {
     margin-left: 50px;
     margin-right: 50px;
@@ -428,9 +432,6 @@ ul{
     small{
         margin: 0 20px;
     }
-    .headerImg {
-      margin-left: 50px;
-    }
     .blockResultats{
         flex-direction: column-reverse;
         max-height: none;
@@ -444,10 +445,11 @@ ul{
         padding-bottom: 26px;
     }
     .resultatsPopulaires .conteneurCarte{
-        margin: 0 20px;
+        flex-direction: row;
+        justify-content: center;
     }
     .resultatsPopulaires .lienCarte{
-        margin: 5px 0;
+        margin: 5px 6px;
     }
     .resultatsPrincipaux{
         background: none;
@@ -511,6 +513,15 @@ ul{
   .header {
     margin: 0;
   }
+
+  .headerImg {
+    margin-left: 50px;
+  }
+
+  .fa-search {
+    visibility: visible;
+  }
+
   .resultats {
     margin-left: 0;
     margin-right: 0;
@@ -545,6 +556,9 @@ ul{
       grid-template-columns: auto 1fr auto;
       grid-template-areas: "logo . button" "navbar navbar navbar";
       margin: 0;
+    }
+    .fa-search {
+      visibility: visible;
     }
     .headerimg {
       order: 0;
