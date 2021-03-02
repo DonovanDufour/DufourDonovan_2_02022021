@@ -63,6 +63,7 @@ a {
 
   .fa-search {
     visibility: hidden;
+    width: 0;
   }
 
   .search {
@@ -519,7 +520,7 @@ ul{
   }
 
   .fa-search {
-    visibility: visible;
+    visibility: hidden;
   }
 
   .resultats {
@@ -559,6 +560,7 @@ ul{
     }
     .fa-search {
       visibility: visible;
+      width: 100%;
     }
     .headerimg {
       order: 0;
