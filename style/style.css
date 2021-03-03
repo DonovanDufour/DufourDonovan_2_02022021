@@ -503,6 +503,20 @@ ul{
     }
 }
 
+@media screen and (min-width :1439px){ 
+  .header,.resultats,.search,.activites {
+    width : 1440px;
+margin : auto;
+  }
+}
+
+@media screen and (max-width :320px){ 
+  .header,.resultats,.search,.activites {
+    width : 320px;
+    margin : auto;
+  }
+}
+
 @media screen and (min-width: 2560px) {
   body {
     margin: auto;
