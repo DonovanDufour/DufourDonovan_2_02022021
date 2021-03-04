@@ -299,7 +299,8 @@ a {
     border-radius: 15px;
 }
 .resultatsPopulaires .fa-chart-line{
-    margin-left: 100px;
+    margin-left: 30px;
+    padding-right: 20px;
 }
 .resultatsPopulaires .conteneurCarte{
     flex-direction: column;
@@ -503,18 +504,30 @@ ul{
     }
 }
 
-@media screen and (min-width :1439px){ 
-  .header,.resultats,.search,.activites {
-    width : 1440px;
-margin : auto;
+@media screen and (min-width :1024px) and (max-width: 1024px){ 
+  .searchFilters {
+    flex-wrap: nowrap;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  .carte p {
+    font-size: 1.1rem;
+  }
+
+  .texteCarte p {
+    margin-bottom: 20%;
+  }
+
+  .cartePopulaire {
+    padding: 15px;
+    width: 350px;
   }
 }
 
 @media screen and (max-width :320px){ 
-  .header,.resultats,.search,.activites {
-    width : 320px;
-    margin : auto;
-  }
 }
 
 @media screen and (min-width: 2560px) {
@@ -618,7 +631,7 @@ margin : auto;
       margin-right: 0px;
     }
     .resultatsPopulaires .fa-chart-line {
-      margin-left: 85px;
+      margin-left: 70px;
     }
     .headerImg{
     margin-left: 50px;
