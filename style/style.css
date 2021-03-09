@@ -276,7 +276,6 @@ a {
 .resultatsPrincipaux{
     display: flex;
     flex-direction: column;
-    max-width: 880px;
     padding: 40px 0;
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -429,11 +428,17 @@ ul{
 
 
 /* responsive */
+@media screen and (min-width: 1401px){
+.resultatsPrincipaux {
+  max-width: 880px;
+}
+}
 
 @media screen and (max-width: 1400px){
     small{
         margin: 0 20px;
     }
+
     .blockResultats{
         flex-direction: column-reverse;
         max-height: none;
@@ -471,7 +476,7 @@ ul{
     .resultatsPrincipaux .lienCarte{
         margin: 6px 0;
     }
-    /* Activities */
+
     .activites h2{
         padding-left: 20px;
     }
@@ -490,7 +495,7 @@ ul{
     .lienCarteActivites{
         margin: 12px 0;
     }
-    /* footer */
+
     .contenuFooter{
         flex-direction: column;
     }
@@ -504,7 +509,7 @@ ul{
     }
 }
 
-@media screen and (min-width :1024px) and (max-width: 1024px){ 
+@media screen and (min-width :828px) and (max-width: 1186px){ 
   .searchFilters {
     flex-wrap: nowrap;
   }
@@ -522,8 +527,16 @@ ul{
   }
 
   .cartePopulaire {
-    padding: 15px;
-    width: 350px;
+    width: 100%;
+  }
+
+  .imgPopulaire {
+    width: 40%;
+  }
+
+  .resultatsPopulaires .conteneurCarte {
+    flex-direction: column;
+    width: 90%;
   }
 }
 
@@ -537,6 +550,11 @@ ul{
 @media only screen and (min-width: 701px) and (max-width: 800px)  {
   .header {
     margin: 0;
+  }
+
+  .resultatsPrincipaux {
+    max-width: 880px;
+    align-items: center;
   }
 
   .headerImg {
@@ -573,6 +591,15 @@ ul{
   }
   .lienCarteActivites {
     margin: 12px 10px;
+  }
+
+  .conteneurCarte {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .resultatsPopulaires .conteneurCarte {
+    flex-direction: column;
   }
 }
 
