@@ -665,3 +665,42 @@ ul{
     color: black;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cartePopulaire {
+    width: 300px;
+  }
+
+  .resultatsPopulaires {
+    width: 328px;
+  }
+
+  .resultatsPopulaires .fa-chart-line {
+    margin-left: 15px;
+  }
+
+  .resultatsPrincipaux .lienCarte {
+    width: 300px;
+  }
+
+  .imgPrincipal {
+    width: 289px;
+  }
+
+  .conteneurActivites {
+    flex-direction: column;
+  }
+
+  .imgActivite {
+    width: 315px;
+  }
+
+  .lienCarteActivites {
+    margin: 11px 5px;
+  }
+
+  footer {
+    margin-right: -8px;
+    width: 328px;
+  }
+}
