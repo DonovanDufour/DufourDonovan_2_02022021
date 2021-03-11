@@ -570,7 +570,7 @@ ul{
     margin-right: 0;
   }
   .afficherPlus {
-    margin-left: 35px;
+    margin-left: 0px;
   }
   
   .activites {
@@ -584,10 +584,10 @@ ul{
     padding: 0;
   }
   .resultatsPrincipaux h2 {
-    margin-left: 35px;
+    margin-left: 0px;
   }
   .conteneurActivites {
-    flex-direction: inherit;
+    flex-direction: column;
   }
   .lienCarteActivites {
     margin: 12px 10px;
@@ -663,6 +663,30 @@ ul{
   .searchFormSearchinput::placeholder {
     font-size: 13px;
     color: black;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+  .imgPrincipal {
+    width: 416px;
+  }
+
+  .imgActivite {
+    width: 427px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 500px){
+  .afficherPlus {
+    margin-left: 75px;
+  }
+
+  .activites h2 {
+    margin-left: 55px;
+  }
+
+  .resultatsPrincipaux h2{
+    margin-left: 75px;
   }
 }
 
